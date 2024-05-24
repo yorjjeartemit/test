@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat gpt</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat GPT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="main-container">
-        <div class="rectangle"><span class="logo">лого</span></div>
-        <div class="flex-row-a">
-            <div class="rectangle-1"></div>
-            <div class="rectangle-2">
-                <span class="python-script">python script</span>
-            </div>
-            <button class="button">
-                <span class="create-workout-plan">Create a workout plan</span>
-            </button>
-            <div class="rectangle-3">
-                <span class="write-text">Write a text</span>
-            </div>
-            <button class="rectangle-4">
-                <span class="fun-fact">Tell me a fun fact</span></button><button class="rectangle-5"></button><span
-                class="enter-something">Введіть щось</span>
-        </div>
+    <h1>Chat GPT</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis ullam deserunt repudiandae sint cumque nesciunt maiores illum iusto neque. At, autem accusamus? Excepturi ipsum, blanditiis accusamus repellat totam a!</p>
+    <div id="messages">
+        
     </div>
-</body>
 
+    <form onsubmit="sendMessage(event)">
+        <input type="text" class="input" placeholder="Введіть текст">
+    </form>
+    <script src="script.js"></script>
+</body>
 </html>

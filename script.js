@@ -10,6 +10,6 @@ function validateForm() {
         alert("Паролі не співпадають");
     } else {
         alert("Акаунт заєстрировано");
-        window.location.href = "index.html"; 
+        window.location.href = "index2.html"; 
     }
 }

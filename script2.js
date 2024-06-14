@@ -30,6 +30,8 @@ function sendMessage(event) {
             botResponse = 'В майбутньому планується покращення цієї програми до справжнього штучного інтелекту.';
         } else if (lowerCaseInput === 'на які питання ти можеш відповісти') {
             botResponse = 'Я можу відповісти на такі питання: що таке гугл; як зварити яйце; як була написана ця програма; Скільки людей живе на землі; які перспективи чекають на цю програму в майбутньому.';
+        } else if (lowerCaseInput === 'що таке chat gpt') {
+            botResponse = 'чат-бот та віртуальний помічник з породжувальним штучним інтелектом, розроблений компанією OpenAI.';
         } else {
             botResponse = 'This is a simulated response. Your message was: ' + userInput.value;
         }
